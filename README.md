@@ -1,6 +1,6 @@
 ### Decoupled Appearance and Motion Learning for Efficient Anomaly Detection in Surveillance Video
 
-This repository provides the implementation for our paper [**Decoupled Appearance and Motion Learning for Efficient Anomaly Detection in Surveillance Video** (Bo Li, Sam Leroux, and Pieter Simoens)](https://arxiv.org/abs/2011.05054). We experimentally show that our method achieved higher anomaly detection accuracy and inference speed than the existing works on several benchmark datasets. 
+This repository provides the implementation for our paper [**Decoupled appearance and motion learning for efficient anomaly detection in surveillance video** (Bo Li, Sam Leroux, and Pieter Simoens)](https://www.sciencedirect.com/science/article/pii/S107731422100093X). We experimentally show that our method achieved higher anomaly detection accuracy and inference speed than the existing works on several benchmark datasets. 
 
 Our anomaly detection framework can be seen in the figure below:
 ![algorithm](gt/framework.png)
@@ -12,7 +12,7 @@ Our anomaly detection framework can be seen in the figure below:
 1. Clone this repo and prepare the environment:
 
    ```bash
-   git clone https://gitlab.ilabt.imec.be/bobli/daml.git
+   git clone https://github.com/lyn1874/daml.git
    cd daml
    ./requirement.sh download_ckpts_or_not
    Args:
@@ -51,15 +51,16 @@ Our anomaly detection framework can be seen in the figure below:
 #### Citation
 If you use this code for your research, please cite our paper:
 ```
-@article{DBLP:journals/corr/abs-2011-05054,
-  author    = {Bo Li and
-               Sam Leroux and
-               Pieter Simoens},
-  title     = {Decoupled Appearance and Motion Learning for Efficient Anomaly Detection
-               in Surveillance Video},
-  journal   = {CoRR},
-  volume    = {abs/2011.05054},
-  year      = {2020},
+@article{LI2021103249,
+title = {Decoupled appearance and motion learning for efficient anomaly detection in surveillance video},
+journal = {Computer Vision and Image Understanding},
+volume = {210},
+pages = {103249},
+year = {2021},
+issn = {1077-3142},
+doi = {https://doi.org/10.1016/j.cviu.2021.103249},
+url = {https://www.sciencedirect.com/science/article/pii/S107731422100093X},
+author = {Bo Li and Sam Leroux and Pieter Simoens},
 }
 ```
     
